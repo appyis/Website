@@ -1,0 +1,445 @@
+
+
+
+html{
+    background: linear-gradient(300deg, #000000, #460246, #87ceeb);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+   
+    
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px
+    
+  }
+  .butter{
+    width: 100%;
+    margin: 0;
+    
+  }
+  h3{
+    font-family: lora;
+  }
+  .para{
+    font-family: lora;
+  }
+.fly{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+  .pic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  h1 {
+    font-family: "dancing script";
+    color: #c8a2c8;
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    font-size: 5rem;
+  }
+  .text>p{
+    font-family:"dancing script" ;
+    color: #c8a2c8;
+    position: absolute;
+    transform: translateY(-200px);
+    margin-left: 210px;
+    font-size: 2rem;
+  }
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .about2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .one {
+    font-size: 2rem;
+    color: lavender;
+    font-family: lora;
+    text-align: center;
+  }
+  .read {
+    font-size: 2rem;
+    color: lavender;
+    font-family: lora;
+  }
+  .road {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .projects{
+    color: lavender;
+    font-family: lora;
+    font-size: 5rem;
+  }
+  h3{
+    color: lavender;
+    font-size: 2rem;
+    font-weight: lighter;
+  }
+  .flex-container p {
+    color: lavender;
+    font-size: 2rem;
+  }
+  .mail,.mail2,.mail3{
+    font-size: 1.8rem;
+  }
+  .flex-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  .butter{
+    width: 100%;
+    
+    
+  }
+  .jelly{
+    transform: translateY(-10px);
+    margin-left: 100px;
+  }
+  .fly{
+    width: 100%;
+    background-color: black;
+   
+  }
+  .fish,.fish2,.fish3,.fish4{
+    height: 250px;
+    .
+  }
+  .fish4{
+    transform: translateX(1000px);
+  }
+  .fish3{
+    height: 100px;
+    transform: translateY(-1200px);
+  }
+  .jelly3{
+    transform: translateX(00px);
+  }
+  .jelly2{
+    transform: translateY(-1180px);
+    left: 250px !important;
+    position: absolute;
+    
+  }
+  .fish2 {
+    transform: translateX(900px);
+  }
+  .para {
+    font-size: 1.8rem;
+  }
+  
+  
+  @media (max-width:396px) {
+    h1 {
+        
+        position: absolute;
+        left: 100px;
+        top: px;
+        font-size: 2rem;
+        transform: translateY(-30px); 
+        right: 0px;    
+        
+    }
+    .text>p{
+      font-size: 1rem;
+      transform: translateY(-80px);
+      position: absolute;
+      right: 0px;
+      left: -100px;
+    }
+    .pic{
+      height: 80px;
+      width: 80px;
+    }
+    .one,.read{
+      font-size: 1rem;
+    }
+    .projects{
+      font-size: 2.5rem;
+    }
+    h3{
+      font-size: 1rem;
+    }
+    .para{
+      font-size: 0.8rem !important;
+    }
+    .mail,.mail2,.mail3{
+      font-size: 1rem;
+    }
+  }
+  
+  
+  
+
+
+  @media (min-width:397px)and (max-width:477px){
+    h1 {
+      
+        font-size: 2rem;
+        position: absolute;
+        margin-left: 90px;
+        transform: translateX(98px);
+    }
+    .text>p {
+        font-size: 1rem;
+        margin-top: 120px;
+        margin-left: 90px;
+        position: absolute;
+    }
+    .text {
+        width: 100%;
+        align-content: center;
+    }
+    .pic{
+      height: 80px;
+      width: 80px;
+    }
+    .one{
+      font-size: 1rem;
+    }
+    .read{
+      font-size: 1rem;
+    }
+    .projects{
+      font-size: 2rem;
+    }
+    h3{
+      font-size: 1.5rem;
+    }
+    .para{
+      font-size: 1rem !important;
+    }
+    .mail,.mail2,.mail3{
+      font-size: 1rem;
+    }
+    
+  }
+  @media (min-width:478px)and (max-width:600px) {
+    h1{
+       ;
+        transform: translateX(150px);
+        font-size: 2.5rem;
+        position: absolute;
+        left: -20px;
+    }
+    .text>p{
+     font-size: 1.5rem;
+     transform: translateY(-160px);
+     position: absolute;
+     left: -90px;
+    }
+    .pic {
+      height: 100px;
+      width: 100px;
+    }
+    .one{
+      font-size: 1.2rem;
+    }
+    .read{
+      font-size: 1.2rem;
+    }
+    .projects {
+      font-size: 2rem;
+    }
+    .fish {
+      height: 450px;
+      transform: translateX(-900px);
+
+    }
+.jell{
+  margin-top: 220px;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.para{
+  font-size: 1rem !important;
+}
+.flex-container{
+  transform: translateY(-150px);
+}
+  }
+  @media (min-width:601px)and (max-width:742px) {
+    h1 {
+        color;
+        transform: translateX(75px);
+
+    }
+    .pic{
+      height: 100px;
+      width: 100px;
+    }
+    .mail,.mail2,.mail3{
+      font-size: 1rem !important;
+    }
+    .one{
+      font-size: 1.5rem;
+    }
+    .read{
+      font-size: 1.5rem;
+    }
+    h3{
+      font-size: 2rem;
+    }
+    .para{
+      font-size: 1.5rem !important;
+    }
+  }
+  @media (min-width:743px)and (max-width:895px) {
+    h1 {
+        
+        left: 250px;
+        transform: translateY(-80px);
+    }
+    .text>p{
+      left: 100px;
+    }
+    
+  }
+  @media (min-width:896px)and (max-width:1000px) {
+    h1 {
+        
+        transform: translateX(-100px) !important;
+        margin-bottom: -210px;
+        
+        
+    }
+    .text>p{
+      transform: translateY(-300px);
+      margin-left: 300px;
+    }
+    
+  }
+  @media (min-width:1001px) and (max-width:1100px) {
+    h1{
+        
+        transform: translateX(-100px);
+        font-size: 7rem;
+    }
+    .text>p {
+      transform: translateX(80px) ;
+      position: absolute;
+      top: 250px;
+      font-size: 3rem;
+
+    }
+    
+  }
+  @media (min-width:1101px)and (max-width:1190px) {
+    h1 {
+      
+      transform: translateX(-130px);
+      font-size: 8rem;
+    }
+    .text>p {
+      font-size: 3rem;
+      transform: translateX(120px);
+      position: absolute;
+      bottom: 300px;
+    }
+    
+  }
+  @media (min-width:1191px)and (max-width:1300px) {
+    h1{
+       
+        font-size: 8rem;
+        transform:translateX(-200px) ;
+    }
+    .text>p{
+      font-size: 3rem;
+      position: absolute;
+      bottom: 280px;
+      right: 70px;
+      left: 70px;
+      transform: translateX(100px);
+    }
+    
+  }
+  @media (min-width:1301px)and (max-width:1495px) {
+    h1 {
+        
+        font-size: 9rem;
+        transform: translateX(-150px);
+    }
+    .text>p{
+      font-size: 4rem;
+      transform: translateY(-400px);
+      position: absolute;
+      right: 110px;
+      margin-right: 300px;
+    }
+    }
+    @media (min-width:1496px)and (max-width:1696px) {
+        h1 {
+            font-size: 10rem;
+            transform: translateX(-250px);
+        }
+        .text>p {
+          transform: translateY(-500px);
+          font-size: 5rem;
+          margin-right: 300px !important;
+          position: absolute;
+          right: 200px;
+        }
+    }
+
+    @media (min-width:1697px)and (max-width:1880px) {
+        h1 {
+            
+            font-size: 11rem;
+            transform: translateX(-400px);
+        }
+        .text>p{
+          font-size: 5rem;
+          transform: translateY(-400px);
+          margin-right: -700px !important;
+          position: absolute !important;
+          margin-left: 500px;
+        }
+    }
+    
+  
+  @media (min-width:1881px) and (max-width:2100px) {
+    h1 {
+        font-size: 12rem;
+        transform: translateX(-400px);
+
+    }
+    .text>p{
+      font-size: 6rem;
+      transform:translateY(-300px) ;
+      margin-left: 600px;
+    }
+  }
+  

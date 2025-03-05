@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400..700&display=swap" rel="stylesheet">
+
+
+<style>
+    .grid-container{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows:50px 100px 100px;
+        gap: 30px;
+        transform: translateY(100px);
+    }
+    .prior{
+      grid-column: span 2 ;
+    }
+    .card{
+      backgr;
+
+    }
+    html {
+      overflow: ;
+    }
+    
+
+
+   html{
+    background: linear-gradient(300deg, #000000, #460246, #0f0661 );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+   
+    
+   }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .image {
+    transform: translateX(800px);
+    border-top: 800px;
+  }
+  h1{
+    color: lavender;
+    font-family: "dancing script";
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3rem;
+  }
+  .card>p{
+    color: lavender;
+    text-align: center !important;
+    transform: translateY(30px) !important ;
+    font-size:1rem !important;
+    font-family:lora;
+  }
+  .fish{
+    height: 500px;
+    transform: translateX(-900px);
+  }
+  @media (max-width:942px) {
+    .fish{
+      height:200px;
+      transform: translateY(-350px);
+    }
+    .image {
+      transform: translateX(-10px);
+      margin-bottom: 500px !important;
+    }
+  }
+  
+    
+</style>
+<body>
+    <div class="grid-container">
+     <div class="prior card"> <h1>Likes</h1>   </div>
+        <div class="first card"> <p>Playing Guitar</p></div>
+        <div class="second card"> <p>It's newly acquired, but mediocrity is rarely ever fun, so i'm relishing the anomaly.</p> </div>
+        <div class="third card"> <p>Reading</p>  </div>
+        <div class="fourth card"> <p>A good book in hand is the closest to teleportation most of us will ever get. <br> I'm not compalaining. </p> </div>
+        
+        
+    </div>
+
+
+<div class="image"> <img  class="fish" src="./—Pngtree—purple marine creature jellyfish_4185302.png" alt="">  </div>
+
+
+
+
+
+    
+
+    
+   
+</body>
+</html>
